@@ -98,7 +98,7 @@ header {
     font-weight: 300;
     line-height: 1.2;
     color: #fff;
-    margin: 0 auto;
+    margin: 0 auto 2rem;
 }
 
 .card_element {
@@ -147,4 +147,23 @@ select {
 
 select {
     margin-bottom: 25px;
+}
+
+.partnership_content {
+    display: flex;
+    gap: 2rem;
+}
+
+.partnership_title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+.partner_logo {
+    width: 7.5rem;
+    object-fit: contain;
 }
