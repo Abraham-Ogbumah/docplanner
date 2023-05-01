@@ -65,7 +65,7 @@ header {
 
 .body_image_1 {
     width: 40px;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .caption_tagline {
@@ -86,4 +86,65 @@ header {
     color: #747474;
     font-size: 16px;
     margin: 0px 5px 10px 0px;
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.card_element {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+
+select {
+    border: none;
+    text-decoration: underline;
+    background: none;
+    color: #fff;
+}
+
+.title {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+
+.des {
+    margin: 0 0 5px;
+}
+
+.patient {
+    background-color: #00b39b;
+}
+
+.doctor {
+    background-color: #3D83DE;
+}
+
+.clinic {
+    background-color: #1A2734;
+}
+
+select {
+    margin-bottom: 25px;
 }
