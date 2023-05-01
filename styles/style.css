@@ -7,8 +7,15 @@
 body {
 }
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .doc_logo {
     width: 260px;
+    cursor: pointer;
 }
 
 .logo_image {
@@ -26,4 +33,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #00b39b;
+    cursor: pointer;
 }
