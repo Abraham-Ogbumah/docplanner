@@ -167,3 +167,13 @@ select {
     width: 7.5rem;
     object-fit: contain;
 }
+
+.records {
+    background-color: #CFFAF4;
+}
+
+
+
+footer {
+    text-align: center;
+}
