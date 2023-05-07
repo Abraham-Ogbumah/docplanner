@@ -171,8 +171,27 @@ select {
 
 .records {
     background-color: #CFFAF4;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
+.cover {
+    display: flex;
+    justify-content: center;
+}
+
+.records__right {
+    display: flex;
+    gap: 1rem;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.record_card {
+    background-color: white;
+    padding: 40px 30px;
+    width: 220px;
+}
 
 
 footer {
