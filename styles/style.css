@@ -187,10 +187,22 @@ select {
     margin-right: 30px;
 }
 
+.rc {
+    height: 500px;
+    width: 250px;
+}
+
 .record_card {
     background-color: white;
     padding: 40px 30px;
     width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 51%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 
