@@ -205,6 +205,14 @@ select {
     margin-bottom: 20px;
 }
 
+.records__right-card1 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.records__right-card2 {
+    margin-bottom: 20px;
+}
 
 footer {
     text-align: center;
