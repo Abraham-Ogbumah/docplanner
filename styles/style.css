@@ -232,6 +232,26 @@ select {
     margin-bottom: 20px;
 }
 
+.records__left h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.records__left p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+    margin: 0 0 10px;
+}
+
 footer {
     text-align: center;
 }
