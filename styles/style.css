@@ -274,6 +274,26 @@ select {
     margin-bottom: -5px;
 }
 
+.improve {
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+.improve h3{
+    margin: 20px 0px 10px;
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+.improve p{
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    font-weight: 400;
+    color: #747474;
+}
+
 footer {
     text-align: center;
 }
