@@ -294,6 +294,62 @@ select {
     color: #747474;
 }
 
+.countries {
+    margin: 10px;
+    padding: 100px 150px;
+}
+
+.country {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.country div {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button p {
+    color: #747474;
+    font-size: 1rem;
+}
+
+button {
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #3d83df;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+}
+
 footer {
     text-align: center;
+    margin-top: 6rem;
+    font-size: 0.7rem;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer2 {
+    padding-top: 20px;
+    margin: 0px 0px 10px;
 }
