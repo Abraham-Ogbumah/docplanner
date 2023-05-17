@@ -246,6 +246,11 @@ select {
     margin-bottom: 20px;
 }
 
+.card2-iframe {
+    font-size: 20px;
+    color: #79DBCD;
+}
+
 .records__left {
     padding-top: 50px;
 }
