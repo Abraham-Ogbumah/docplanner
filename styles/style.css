@@ -150,12 +150,21 @@ select {
     margin-bottom: 25px;
 }
 
+.partnership {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .partnership_content {
     display: flex;
-    gap: 2rem;
+    width: 60%;
+    gap: 4rem;
 }
 
 .partnership_title {
+    width: 60%;
     font-size: 1.625em;
     margin: 0.25em 0 0.35em;
     padding-right: 1em;
@@ -164,13 +173,21 @@ select {
     letter-spacing: -0.3px;
 }
 
+.partnership_images {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
 .partner_logo {
-    width: 7.5rem;
+    width: 75px;
     object-fit: contain;
 }
 
 .records {
     background-color: #CFFAF4;
+    margin-top: 3rem;
     /* padding-top: 5rem;
     padding-bottom: 3rem; */
 }
@@ -357,6 +374,10 @@ button {
     letter-spacing: -0.3px;
 }
 
+.mp {
+    padding: 12px 14px;
+}
+
 footer {
     text-align: center;
     font-size: 0.7rem;
@@ -371,4 +392,14 @@ footer {
 .footer2 {
     padding-top: 20px;
     margin: 0px 0px 10px;
+}
+
+.bottom-links {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bottom-links:hover {
+    text-decoration: underline;
 }
